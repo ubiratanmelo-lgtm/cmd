@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-bridge",
+  "version": "1.0.0",
+  "description": "Ponte HTTP para WhatsApp usando whatsapp-web.js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "NODE_ENV=development node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.1.5",
+    "qrcode": "^1.5.3",
+    "whatsapp-web.js": "^1.24.0"
+  }
+}
